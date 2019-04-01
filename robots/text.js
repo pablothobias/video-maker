@@ -63,7 +63,7 @@ async function robot() {
     sentences.forEach(sentence => {
       content.sentences.push({
         text: sentence,
-        keyword: [],
+        keywords: [],
         images: []
       })
     })
